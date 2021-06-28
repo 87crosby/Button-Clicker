@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dojonary</title>
+</head>
+<body>
+    <div id="navbar">
+        <h1>Dojonary</h1>
+        <input type="text" name="search" id="seacrh" placeholder="Search...">
+        <button onclick="logout(this)">Login</button>
+    </div>
+    <main>
+        <div class="container">
+            <div id="content">
+                <h1>Ninja</h1>
+                <h2>Noun</h2>
+                <div>
+                    <p class="definition">A praticioner skilled in the Japanese art of Ninjitsu</p>
+                </div>
+                <h3>Plural: Ninjas</h3>
+                <button onclick="alarm()">15 Likes</button>
+                
+            </div>
+            <div id="aside">
+                <h2>Dojonary is defined by YOU</h2>
+                <button onclick="remove(this)">Add Definition</button>
+            </div>
+        </div>
+        <div class="container">
+            <div id="content2">
+                <h1>Ninja</h1>
+                <h2>Noun</h2>
+                <div>
+                    <p class="definition">A programer who breaks down problems with zen-like focus</p>
+                </div>
+                <h3>Plural: Ninjas</h3>
+                <button onclick="alarm()">10 Likes</button>
+            </div>
+            <div id="blank"></div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
